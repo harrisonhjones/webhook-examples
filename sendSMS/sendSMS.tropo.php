@@ -6,7 +6,7 @@ if(($number) && ($message))
 }
 else
 {
-    call("+14049392627", array("network" => "SMS"));
+    call("+15555555555", array("network" => "SMS"));
     say("[SparkSMS] Error, Bad Number/Message. Number: " . $number . " & Message: ". $message);
 }
 ?>
