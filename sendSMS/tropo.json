@@ -1,0 +1,14 @@
+{
+    "eventName": "sendSMS",
+    "url": "https://api.tropo.com/1.0/sessions",
+    "requestType": "POST",
+    "headers": {"accept":"application/json"},
+
+    "query": {
+        "action": "create",
+        "token": "YOUR_ACCESS_TOKEN_HERE",
+        "number": "{{n}}",
+        "message": "{{m}}"
+    },
+    "mydevices": true
+}
