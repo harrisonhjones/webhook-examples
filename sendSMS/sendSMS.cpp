@@ -6,7 +6,7 @@
 SYSTEM_MODE(AUTOMATIC);
 
 /* Preprocessor Defined ------------------------------------------------------*/
-#define ALERT_INTERVAL   60000              // Alert every 10 seconds
+#define ALERT_INTERVAL   60000              // Alert every 60 seconds
 
 /* Constants -----------------------------------------------------------------*/
 const char webhookName[] = "sendSMS";
