@@ -1,0 +1,10 @@
+{
+    "eventName": "sendSlack",
+    "event": "sendSlack",
+    "url": "YOUR SLACK WEBHOOK URL HERE",
+    "requestType": "POST",
+    "form": {
+        "payload": "{\"text\": \"{{m}}\",\"channel\": \"{{n}}\",\"username\":\"particle-{{SPARK_CORE_ID}}\",\"icon_url\":\"https://hackster.imgix.net/uploads/avatar/file/2813/spark-mark-400px.png\"}"
+    },
+    "mydevices": true
+}
