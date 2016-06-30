@@ -1,0 +1,17 @@
+{
+	"event": "EVENT_PREFIX",
+	"url": "MAILGUN_API_BASE_URL/messages",
+	"requestType": "POST",
+	"mydevices": true,
+	"auth": {
+		"username": "api",
+		"password": "MAILGUN_API_KEYKEY"
+	},
+	"noDefaults": true,
+	"form": {
+		"to": "TO_EMAIL",
+		"from": "ANY_NAME <ANY_EMAIL_ADDRESS@MAILGUN_SANDBOX_DOMAIN >",
+		"subject": "ANY_SUBJECT",
+		"text": "ANY_BODY"
+	}
+}
