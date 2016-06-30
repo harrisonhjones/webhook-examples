@@ -10,7 +10,7 @@
 	"noDefaults": true,
 	"form": {
 		"to": "TO_EMAIL",
-		"from": "ANY_NAME <ANY_EMAIL_ADDRESS@MAILGUN_SANDBOX_DOMAIN >",
+		"from": "ANY_NAME <ANY_EMAIL_ADDRESS@MAILGUN_SANDBOX_DOMAIN>",
 		"subject": "ANY_SUBJECT",
 		"text": "ANY_BODY"
 	}
